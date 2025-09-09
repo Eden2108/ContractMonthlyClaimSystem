@@ -8,5 +8,12 @@ namespace ContractMonthlyClaimSystem.Controllers
         {
             return View();
         }
+
+        public IActionResult TrackClaim()
+        {
+            // Later, you’ll pull actual claims from DB
+            return View();
+        }
+
     }
 }

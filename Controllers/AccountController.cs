@@ -1,12 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace ContractMonthlyClaimSystem.Controllers
+public class AccountController : Controller
 {
-    public class AccountController : Controller
+    public IActionResult Login()
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
+        return View();
     }
+
+    public IActionResult Register()
+    {
+        return View();
+    }
+
 }
